@@ -1,0 +1,11 @@
+.list {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    grid-row-gap: 5px;
+    column-gap: 15px;
+}
+
+.item {
+    margin-bottom: 13px;
+}
