@@ -18,7 +18,7 @@ export default function DeleteModal({id, onClose}) {
         <ul className={css.btns}>
           <li>
             <button className={css.agree} onClick={handleDelete}>
-              Yes
+              Delete
             </button>
           </li>
           <li>

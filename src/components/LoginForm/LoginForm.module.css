@@ -8,10 +8,11 @@
 .field {
     display: flex;
     flex-direction: column;
-    padding: 4px;
+    padding: 5px;
     margin-bottom: 10px;
     width: 300px;
     border-radius: 3px;
+    border: 2px solid #b0b0b0;
 }
 
 .btn {
@@ -23,8 +24,10 @@
     border-radius: 3px;
     cursor: pointer;
     margin-top: 8px;
+    transition-duration: 200ms;
 }
 
 .btn:hover {
-    background-color: #c7c7c7;
+    background-color: #b393f5;
+    color: #fff;
 }

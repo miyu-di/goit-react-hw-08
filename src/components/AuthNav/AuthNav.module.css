@@ -5,11 +5,12 @@
 }
 
 .isActive {
-    color: rgb(96, 6, 251);
+    color: #8757e6;
 }
 
 .nav {
-  margin-left: 10px;
   display: flex;
   gap: 15px;
+  margin-right: 10px;
+  margin-bottom: 5px;
 }

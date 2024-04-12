@@ -1,8 +1,11 @@
 .parag {
-    margin-bottom: 0;
+  margin-bottom: 0;
+  font-weight: 500;
 }
 
 .input {
-    padding: 5px;
-    width: 325px;
+  padding: 5px;
+  width: 325px;
+  border-radius: 3px;
+  border: 2px solid #b0b0b0;
 }
