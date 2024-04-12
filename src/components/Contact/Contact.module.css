@@ -3,6 +3,7 @@
   border-radius: 3px;
   width: 320px;
   padding: 6px;
+  padding-right: 7px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -21,9 +22,13 @@
 
 .btn {
   border-radius: 3px;
+  background-color: #dbdbdb;
   border: none;
-  border: 1px solid #545452;
-  padding: 3px 5px;
+  padding: 6px 10px;
+}
+
+.btn:hover {
+  background-color: #c7c7c7;
 }
 
 .person {

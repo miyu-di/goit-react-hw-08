@@ -5,6 +5,7 @@ import { ContactForm } from "../../components/ContactForm/ContactForm";
 import { SearchBox } from "../../components/SearchBox/SearchBox";
 import { ContactList } from "../../components/ContactList/ContactList";
 import { selectError, selectLoading } from "../../redux/contacts/selectors";
+import css from "./ContactsPage.module.css"
 
 export default function ContactsPage() {
   const dispatch = useDispatch();
@@ -16,7 +17,7 @@ export default function ContactsPage() {
   }, [dispatch]);
 
   return (
-    <div>
+    <div className={css.div}>
       <h1>Phonebook</h1>
       <ContactForm />
       <SearchBox />

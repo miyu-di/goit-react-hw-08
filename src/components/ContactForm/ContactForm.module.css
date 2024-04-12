@@ -21,9 +21,17 @@
 }
 
 .btn {
-  padding: 4px 3px;
+  padding: 7px 8px;
   width: 100px;
   margin-top: 8px;
+  border: none;
+  background-color: #dbdbdb;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #c7c7c7;
 }
 
 .error {
